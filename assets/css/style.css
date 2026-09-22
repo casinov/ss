@@ -1,0 +1,66 @@
+/*! Cayman theme — GitHub Pages built-in theme */
+
+*{box-sizing:border-box}
+body{padding:0;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:16px;line-height:1.5;color:#606c71;background-color:#fff}
+a{color:#1e6bb8;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.btn{display:inline-block;margin-bottom:1rem;color:rgba(255,255,255,0.7);
+background-color:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.2);
+border-style:solid;border-width:1px;border-radius:0.3rem;padding:0.6rem 1rem;
+transition:color .2s,background-color .2s,border-color .2s}
+.btn:hover{color:rgba(255,255,255,0.9);text-decoration:none;background-color:rgba(255,255,255,0.2);border-color:rgba(255,255,255,0.35)}
+.btn+.btn{margin-left:1rem}
+
+.page-header{color:#fff;text-align:center;background-color:#159957;
+background-image:linear-gradient(120deg,#155799,#159957)}
+@media screen and (min-width:64em){.page-header{padding:5rem 6rem}}
+@media screen and (min-width:42em) and (max-width:64em){.page-header{padding:3rem 4rem}}
+@media screen and (max-width:42em){.page-header{padding:2rem 1rem}}
+
+.project-name{margin-top:0;margin-bottom:0.1rem;font-size:3.25rem;font-weight:normal;line-height:1.15}
+@media screen and (min-width:42em) and (max-width:64em){.project-name{font-size:2.75rem}}
+@media screen and (max-width:42em){.project-name{font-size:2rem}}
+
+.project-tagline{margin-bottom:2rem;font-weight:normal;opacity:0.72;font-size:1.25rem}
+@media screen and (min-width:42em) and (max-width:64em){.project-tagline{font-size:1.15rem}}
+@media screen and (max-width:42em){.project-tagline{font-size:1rem}}
+
+.main-content{word-wrap:break-word}
+.main-content :first-child{margin-top:0}
+@media screen and (min-width:64em){.main-content{max-width:64rem;padding:2rem 6rem;margin:0 auto;font-size:1.1rem}}
+@media screen and (min-width:42em) and (max-width:64em){.main-content{padding:2rem 4rem;font-size:1.1rem}}
+@media screen and (max-width:42em){.main-content{padding:2rem 1rem;font-size:1rem}}
+
+.main-content img{max-width:100%}
+.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{
+margin-top:2rem;margin-bottom:1rem;font-weight:normal;color:#159957}
+.main-content p{margin-bottom:1em}
+.main-content code{padding:2px 4px;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;
+font-size:0.9rem;color:#567482;background-color:#f3f6fa;border-radius:0.3rem}
+.main-content pre{padding:0.8rem;margin-top:0;margin-bottom:1rem;overflow-x:auto;
+font-size:0.9rem;line-height:1.45;color:#567482;background-color:#f3f6fa;border:solid 1px #dce6f0;border-radius:0.3rem}
+.main-content pre code{padding:0;margin:0;font-size:0.9rem;color:#567482;background:transparent;border:0}
+.main-content ul,.main-content ol{margin-top:0;padding-left:1.2rem;margin-bottom:1rem}
+.main-content li>ul,.main-content li>ol{margin-bottom:0}
+.main-content hr{height:2px;padding:0;margin:1rem 0;background-color:#eff0f1;border:0}
+.main-content blockquote{padding:0 1rem;margin-left:0;color:#819198;border-left:0.3rem solid #dce6f0}
+.main-content blockquote>:first-child{margin-top:0}
+.main-content blockquote>:last-child{margin-bottom:0}
+.main-content table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all;
+border-collapse:collapse;margin-bottom:1rem}
+.main-content table th{font-weight:bold}
+.main-content table th,.main-content table td{padding:0.5rem 1rem;border:solid 1px #dce6f0;vertical-align:top}
+.main-content table tr{background-color:#fff;border-top:1px solid #ccc}
+.main-content table tr:nth-child(2n){background-color:#f8f8f8}
+.main-content table td.num{white-space:nowrap;color:#159957;font-variant-numeric:tabular-nums;width:4.5rem}
+.main-content table td.snip{color:#819198;font-size:0.92rem}
+.main-content dl{padding:0}
+.main-content dl dt{padding:0;margin-top:1rem;font-size:1rem;font-weight:bold}
+.main-content dl dd{padding:0;margin-bottom:1rem}
+
+.permalink{margin-top:1.6rem;padding-top:1rem;border-top:1px solid #eff0f1}
+.site-footer{border-top:solid 1px #eff0f1;padding:2rem 6rem;margin-top:2rem;text-align:center;
+font-size:0.9rem;color:#819198}
+@media screen and (max-width:42em){.site-footer{padding:2rem 1rem}}
